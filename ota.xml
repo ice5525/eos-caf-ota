@@ -31,10 +31,10 @@
   <DonateURL nil="true" >
   </DonateURL>
   <Changelog>### Changelog 20150101
-  *
+  * Changelog here
   </Changelog>
+    <!-- 
   <AddonCount>1</AddonCount>
-  <!-- 
   <AddonsURL>
   <![CDATA[
   https://ice5525.github.io/eos-caf-ota/addons.xml
