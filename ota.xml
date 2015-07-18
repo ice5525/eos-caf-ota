@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>
+  <![CDATA[ eos-caf-bacon ]]>
+  </RomName>
+  <VersionName>
+  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-XXXXXX ]]>
+  </VersionName> 
+  <VersionNumber type="integer">20150101</VersionNumber>
+  <DirectUrl>
+  <![CDATA[
+  Link Here
+  ]]>
+  </DirectUrl>
+  <HttpUrl>
+  <![CDATA[
+  https://www.androidfilehost.com/?w=files&flid=33671
+  ]]>
+  </HttpUrl>
+  <Android>5.1.1</Android>
+  <CheckMD5>0</CheckMD5>
+  <FileSize type="integer">0</FileSize>
+  <Developer>
+  <![CDATA[ ice5525 ]]>
+  </Developer>
+  <WebsiteURL>
+  <![CDATA[
+  http://forum.xda-developers.com/oneplus-one/development/rom-kernel-euphoria-os-1-1-3-4-0-caf-t3134828
+  ]]>
+  </WebsiteURL>
+  <DonateURL nil="true" >
+  </DonateURL>
+  <Changelog>### Changelog 20150101
+  *
+  </Changelog>
+  <AddonCount>1</AddonCount>
+  <!-- 
+  <AddonsURL>
+  <![CDATA[
+  https://ice5525.github.io/eos-caf-ota/addons.xml
+  ]]>
+  </AddonsURL>
+  -->
+</ROM>
