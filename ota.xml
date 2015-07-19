@@ -4,12 +4,12 @@
   <![CDATA[ eos-caf-bacon ]]>
   </RomName>
   <VersionName>
-  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-XXXXXX ]]>
+  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150719 ]]>
   </VersionName> 
-  <VersionNumber type="integer">20150101</VersionNumber>
+  <VersionNumber type="integer">20150719</VersionNumber>
   <DirectUrl>
   <![CDATA[
-  Link Here
+  https://www.dropbox.com/s/ldc0jpe19u7o8pq/Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150719.zip?dl=1
   ]]>
   </DirectUrl>
   <HttpUrl>
@@ -18,8 +18,8 @@
   ]]>
   </HttpUrl>
   <Android>5.1.1</Android>
-  <CheckMD5>0</CheckMD5>
-  <FileSize type="integer">0</FileSize>
+  <CheckMD5>7eb4168b5a042252ffa03fe743f08725</CheckMD5>
+  <FileSize type="integer">250638053</FileSize>
   <Developer>
   <![CDATA[ ice5525 ]]>
   </Developer>
@@ -30,15 +30,12 @@
   </WebsiteURL>
   <DonateURL nil="true" >
   </DonateURL>
-  <Changelog>### Changelog 20150101
-  * Changelog here
+  <Changelog>### Changelog 20150719
+  *Fixed encryption (TWRP can now mount encrypted /data partitions)
+  *Changed default I/O scheduler to Deadline
+  *Updated touchscreen suspend/resume routines to fix SoDs (again...)
+  *Use Uber toolchains (4.8 rom, 4.9 kernel, nothing experimental)
+  *Picked Wi-Fi fix from CM
+  *All new EOS stuff
   </Changelog>
-    <!-- 
-  <AddonCount>1</AddonCount>
-  <AddonsURL>
-  <![CDATA[
-  https://ice5525.github.io/eos-caf-ota/addons.xml
-  ]]>
-  </AddonsURL>
-  -->
 </ROM>
