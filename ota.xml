@@ -4,12 +4,12 @@
   <![CDATA[ eos-caf-bacon ]]>
   </RomName>
   <VersionName>
-  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150719 ]]>
+  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150729 ]]>
   </VersionName> 
-  <VersionNumber type="integer">20150719</VersionNumber>
+  <VersionNumber type="integer">20150729</VersionNumber>
   <DirectUrl>
   <![CDATA[
-  https://www.dropbox.com/s/ldc0jpe19u7o8pq/Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150719.zip?dl=1
+  https://www.dropbox.com/s/gy7llqpf2aeldxp/Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150729.zip?dl=1
   ]]>
   </DirectUrl>
   <HttpUrl>
@@ -18,8 +18,8 @@
   ]]>
   </HttpUrl>
   <Android>5.1.1</Android>
-  <CheckMD5>e6b3133fb5ead1b59a9be10321141edb</CheckMD5>
-  <FileSize type="integer">250809486</FileSize>
+  <CheckMD5>44cc79a2db050ca966d23353089c0df0</CheckMD5>
+  <FileSize type="integer">282291419</FileSize>
   <Developer>
   <![CDATA[ ice5525 ]]>
   </Developer>
@@ -30,12 +30,31 @@
   </WebsiteURL>
   <DonateURL nil="true" >
   </DonateURL>
-  <Changelog>### Changelog 20150719
-  *Fixed encryption (TWRP can now mount encrypted /data partitions)
-  *Changed default I/O scheduler to Deadline
-  *Updated touchscreen suspend/resume routines to fix SoDs (again...)
-  *Use Uber toolchains (4.8 rom, 4.9 kernel, nothing experimental)
-  *Picked Wi-Fi fix from CM
-  *All new EOS stuff
+  <Changelog>### Changelog 20150729
+  *Added 1080p video recording at 120 FPS
+  *Added ability to record video at 90 FPS (for both 720p and 1080p as well)
+  *Fixed broken video streaming in browsers (credit: myfluxi)
+  *Enabled audio offload for 12k and 24k sampling rates (credit: myfluxi)
+  *Disabled thermal-engine (we will use my kernel-based thermal solution instead)
+  *Enabled new kernel-based thermal mitigation
+  *Added support for 1080P video recording with the front-facing camera
+  *Fixed framerate drop when taking picture while recording 4K video
+  *Updated complete WiFi configuration from LG G3 (better WiFi performance and stability)
+  *Updated WCNSS WiFi firmware from LG G3
+  *Fixed 30-degree error in compass (derp)
+  *Fixed 4K video recording in all camera apps (such as Google Camera)
+  *Fixed several bugs with Google Camera (such as broken photosphere and panorama functionality)
+  *Disabled fluence in phone calls (may have caused reduced mic volume during calls)
+  *Synced GPS HAL with CAF LA.BF.1.1.1_rb1.26
+  *Reverted WiFi config update from CM that broke all the things
+  *Added support for 4K video recording at UHD and DCI resolutions (only works with CameraNext and ColorOS camera)
+  *Added homemade thermal driver (uses 3 throttling steps)
+  *Added various I/O scheduler tweaks for CFQ and Deadline (thanks to myfluxi)
+  *Fixed display not coming on for some users
+  *Fixed DT2W not working sometimes
+  *Added and changed default TCP congestion algorithm to Westwood
+  *Added CD-ROM emulation support (FrozenCow)
+  *Added NTFS support
+  *Added a bunch of sched patches (thanks to myfluxi for finding and testing these)
   </Changelog>
 </ROM>
