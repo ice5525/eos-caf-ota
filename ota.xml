@@ -4,12 +4,12 @@
   <![CDATA[ eos-caf-bacon ]]>
   </RomName>
   <VersionName>
-  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150805 ]]>
+  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150806 ]]>
   </VersionName> 
-  <VersionNumber type="integer">20150805</VersionNumber>
+  <VersionNumber type="integer">20150806</VersionNumber>
   <DirectUrl>
   <![CDATA[
-  https://www.dropbox.com/s/uvz25sokndyck51/Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150805.zip?dl=1
+  https://www.dropbox.com/s/0afuujky984onas/Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150806.zip?dl=1
   ]]>
   </DirectUrl>
   <HttpUrl>
@@ -18,8 +18,8 @@
   ]]>
   </HttpUrl>
   <Android>5.1.1</Android>
-  <CheckMD5>5388067d7d7cc7c28442e9057b90c6b1</CheckMD5>
-  <FileSize type="integer">280687545</FileSize>
+  <CheckMD5>c2eebd052ae2d0246e8b1207282c6caf</CheckMD5>
+  <FileSize type="integer">280407906 </FileSize>
   <Developer>
   <![CDATA[ ice5525 ]]>
   </Developer>
@@ -30,12 +30,9 @@
   </WebsiteURL>
   <DonateURL nil="true" >
   </DonateURL>
-  <Changelog>### Changelog 20150805
-  *Fixed compass (for real this time) - LOL IT DOENS WORK XD. Maybe clean flash needed?
-  *Updated WiFi drivers back to CAF LA.BF.1.1.1_rb1.26
-  *Enabled regulatory feature for WiFi
-  *Fixed 720p HFR (slow-motion) and HSR (high-speed) video recording at 90FPS and 120FPS with all camera apps
-  *Updated my translations
-  *Revert "Lets Trim the RECENTS card style to look more "NICER"", i dont like it
+  <Changelog>### Changelog 20150806
+  *Fixed sensor calibration being reset on each boot
+  *Forced triple framebuffering (UI feels smoother)
+  *Some translation updates
   </Changelog>
 </ROM>
