@@ -4,12 +4,12 @@
   <![CDATA[ eos-caf-bacon ]]>
   </RomName>
   <VersionName>
-  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150806 ]]>
+  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150811 ]]>
   </VersionName> 
-  <VersionNumber type="integer">20150806</VersionNumber>
+  <VersionNumber type="integer">20150811</VersionNumber>
   <DirectUrl>
   <![CDATA[
-  https://www.dropbox.com/s/0afuujky984onas/Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150806.zip?dl=1
+  https://www.dropbox.com/s/1kuzwvblrhe5qax/Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150811.zip?dl=1
   ]]>
   </DirectUrl>
   <HttpUrl>
@@ -18,8 +18,8 @@
   ]]>
   </HttpUrl>
   <Android>5.1.1</Android>
-  <CheckMD5>c2eebd052ae2d0246e8b1207282c6caf</CheckMD5>
-  <FileSize type="integer">280407906 </FileSize>
+  <CheckMD5>5218e4b6d0344c6de405b1c4ce11c296</CheckMD5>
+  <FileSize type="integer">280419718</FileSize>
   <Developer>
   <![CDATA[ ice5525 ]]>
   </Developer>
@@ -30,9 +30,21 @@
   </WebsiteURL>
   <DonateURL nil="true" >
   </DonateURL>
-  <Changelog>### Changelog 20150806
-  *Fixed sensor calibration being reset on each boot
-  *Forced triple framebuffering (UI feels smoother)
-  *Some translation updates
+  <Changelog>### Changelog 20150811
+  *Disabled a/v streaming offload again (it was still breaking videos in browser)
+  *Switched back to old WCNSS (WiFi) firmware images
+  *Fixed incorrect video duration for HFR (slow-motion) videos
+  *Fixed touch-to-focus in HDR mode
+  *Fixed low framerate when recording 720p video with the front-facing camera
+  *Fixed manual focus
+  *Removed power HAL (it wasn't really doing anything)
+  *Fixed CPU max freq not sticking to 729MHz in low-power mode
+  *Reverted vidc drivers to CAF LA.BF.1.1.1.c3 (fixes random reboots)
+  *Display turns on faster now
+  *Fixed bugs in CPU input boost driver (CPU was not being boosted enough)
+  *CPU is boosted on thread migration
+  *CPU is boosted when waking the display and putting it to sleep
+  *Fixed touchscreen not working in doze (and hopefully fixed gestures/DT2W not working sometimes)
+  *Bring old Launcher3 from previous builds because new with settings is broken for now (why?)
   </Changelog>
 </ROM>
