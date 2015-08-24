@@ -4,12 +4,12 @@
   <![CDATA[ eos-caf-bacon ]]>
   </RomName>
   <VersionName>
-  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150811 ]]>
+  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150824 ]]>
   </VersionName> 
-  <VersionNumber type="integer">20150811</VersionNumber>
+  <VersionNumber type="integer">20150824</VersionNumber>
   <DirectUrl>
   <![CDATA[
-  https://www.dropbox.com/s/1kuzwvblrhe5qax/Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150811.zip?dl=1
+  https://www.dropbox.com/s/1ykic2jz50fntqp/Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150824.zip?dl=1
   ]]>
   </DirectUrl>
   <HttpUrl>
@@ -18,8 +18,8 @@
   ]]>
   </HttpUrl>
   <Android>5.1.1</Android>
-  <CheckMD5>5218e4b6d0344c6de405b1c4ce11c296</CheckMD5>
-  <FileSize type="integer">280419718</FileSize>
+  <CheckMD5>16d4575c0669664788f815d525f9027f</CheckMD5>
+  <FileSize type="integer">280703981</FileSize>
   <Developer>
   <![CDATA[ ice5525 ]]>
   </Developer>
@@ -30,21 +30,28 @@
   </WebsiteURL>
   <DonateURL nil="true" >
   </DonateURL>
-  <Changelog>### Changelog 20150811
-  *Disabled a/v streaming offload again (it was still breaking videos in browser)
-  *Switched back to old WCNSS (WiFi) firmware images
-  *Fixed incorrect video duration for HFR (slow-motion) videos
-  *Fixed touch-to-focus in HDR mode
-  *Fixed low framerate when recording 720p video with the front-facing camera
-  *Fixed manual focus
-  *Removed power HAL (it wasn't really doing anything)
-  *Fixed CPU max freq not sticking to 729MHz in low-power mode
-  *Reverted vidc drivers to CAF LA.BF.1.1.1.c3 (fixes random reboots)
-  *Display turns on faster now
-  *Fixed bugs in CPU input boost driver (CPU was not being boosted enough)
-  *CPU is boosted on thread migration
-  *CPU is boosted when waking the display and putting it to sleep
-  *Fixed touchscreen not working in doze (and hopefully fixed gestures/DT2W not working sometimes)
-  *Bring old Launcher3 from previous builds because new with settings is broken for now (why?)
+  <Changelog>### Changelog 20150824
+  *Fixed exposure time getting set to 1/5000th of a second when trying to disable slow-shutter
+  *Added support for slow shutter (ranging from 1/5000th of a second up to 2 seconds)
+  *Removed encoder options from Snapdragon Camera
+  *Changed CPU governor to Interactive
+  *Tweaked Interactive for better efficiency
+  *Added back recent GPS change
+  *Fixed overheating (thermal settings are more aggressive now)
+  *Fixed CPU getting stuck at 1958MHz while device is asleep
+  *Added 2.5k 1440p video recording for the front-facing camera (you must use Snapdragon Camera)
+  *Added 2.5k 1440p video recording for the back camera (you must use Snapdragon Camera)
+  *Added flashlight fixes from CAF
+  *Updated part of the WiFi configuration from official CM12.1
+  *Reverted recent GPS change
+  *Fixed WiFi not automatically reconnecting for some users
+  *Fixed camera stability issues caused by undefined behavior (this should fix the flashlight reboots)
+  *Removed Smartmax governor
+  *Fixed glitches when the display turns on
+  *Fixed overly-excessive and inconsistent thermal throttling
+  *Thermal driver now polls temperature sensor located on the PMIC instead of from TSENS
+  (thermal throttling is very accurate now, and it will throttle when the device actually feels hot)
+  *Fixed display backlight staying on (credit: myfluxi)
+  *Fixed unbalanced SPS IRQ enable (credit: myfluxi)
   </Changelog>
 </ROM>
