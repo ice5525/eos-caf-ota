@@ -5,12 +5,12 @@
             <id>1</id> <!-- Use integers only, make them unique -->
             <name>Remove CPU Underclock</name> <!-- The name, simples -->
             <description>Use stock 2.5 GHz instead of 2 GHz</description> <!-- You can use markdown here if you want -->
-            <updated-at>2015-06-03</updated-at> <!-- Must be in yyyy-mm-dd format -->
+            <updated-at>2014-12-24</updated-at> <!-- Must be in yyyy-mm-dd format -->
             <size>443900</size> <!-- filesize in bytes -->
             <download-link>
             <![CDATA[
-			      Link Here
-			      ]]>
+            https://dropbox.com/s/uj1wxp2av10i6lw/Sultan-bacon-Disable-CPU-Underclock.zip?dl=1
+            ]]>
             </download-link>
         </addon>
     </addons>
