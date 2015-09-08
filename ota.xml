@@ -4,12 +4,12 @@
   <![CDATA[ eos-caf-bacon ]]>
   </RomName>
   <VersionName>
-  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150824 ]]>
+  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150908]]>
   </VersionName> 
-  <VersionNumber type="integer">20150824</VersionNumber>
+  <VersionNumber type="integer">20150908</VersionNumber>
   <DirectUrl>
   <![CDATA[
-  https://www.dropbox.com/s/1ykic2jz50fntqp/Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150824.zip?dl=1
+  https://www.dropbox.com/s/s9wdext1dsyfovo/Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150908.zip?dl=1
   ]]>
   </DirectUrl>
   <HttpUrl>
@@ -18,8 +18,8 @@
   ]]>
   </HttpUrl>
   <Android>5.1.1</Android>
-  <CheckMD5>16d4575c0669664788f815d525f9027f</CheckMD5>
-  <FileSize type="integer">280703981</FileSize>
+  <CheckMD5>a77b5f39170f3555b18cf1f2a981328f</CheckMD5>
+  <FileSize type="integer">282290668 </FileSize>
   <Developer>
   <![CDATA[ ice5525 ]]>
   </Developer>
@@ -30,34 +30,7 @@
   </WebsiteURL>
   <DonateURL nil="true" >
   </DonateURL>
-  <Changelog>### Changelog 20150824
-  *Fixed exposure time getting set to 1/5000th of a second when trying to disable slow-shutter
-  *Added support for slow shutter (ranging from 1/5000th of a second up to 2 seconds)
-  *Removed encoder options from Snapdragon Camera
-  *Changed CPU governor to Interactive
-  *Tweaked Interactive for better efficiency
-  *Added back recent GPS change
-  *Fixed overheating (thermal settings are more aggressive now)
-  *Fixed CPU getting stuck at 1958MHz while device is asleep
-  *Added 2.5k 1440p video recording for the front-facing camera (you must use Snapdragon Camera)
-  *Added 2.5k 1440p video recording for the back camera (you must use Snapdragon Camera)
-  *Added flashlight fixes from CAF
-  *Updated part of the WiFi configuration from official CM12.1
-  *Reverted recent GPS change
-  *Fixed WiFi not automatically reconnecting for some users
-  *Fixed camera stability issues caused by undefined behavior (this should fix the flashlight reboots)
-  *Removed Smartmax governor
-  *Fixed glitches when the display turns on
-  *Fixed overly-excessive and inconsistent thermal throttling
-  *Thermal driver now polls temperature sensor located on the PMIC instead of from TSENS
-  (thermal throttling is very accurate now, and it will throttle when the device actually feels hot)
-  *Fixed display backlight staying on (credit: myfluxi)
-  *Fixed unbalanced SPS IRQ enable (credit: myfluxi)
+  <Changelog>### Changelog 20150908
+  *Really long, visit XDA for it
   </Changelog>
-  <AddonCount>1</AddonCount>
-  <AddonsURL>
-  <![CDATA[
-  http://ice5525.github.io/eos-caf-ota/addons.xml
-  ]]>
-  </AddonsURL>
 </ROM>
