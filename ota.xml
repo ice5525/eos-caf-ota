@@ -54,4 +54,10 @@
   *Fixed display backlight staying on (credit: myfluxi)
   *Fixed unbalanced SPS IRQ enable (credit: myfluxi)
   </Changelog>
+  <AddonCount>1</AddonCount>
+  <AddonsURL>
+  <![CDATA[
+  http://ice5525.github.io/eos-caf-ota/addons.xml
+  ]]>
+  </AddonsURL>
 </ROM>
